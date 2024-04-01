@@ -1,0 +1,41 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+}
+
+.header{
+   background-color: black;
+}
+
+.header-flex{
+   display:flex;
+   justify-content:space-between;
+   padding:20px 0;
+}
+
+.canteiner{
+   max-width:1100 ;
+   margin:0 auto;
+}
+
+.header-flex ul{
+   color: white;
+   display: inline-flex;
+   list-style:none;
+   gap: 30px;
+   font-size: 20px;
+}
+
+
+
+.header-flex ul li{
+   font-size: 30px;
+   color: azure;
+}
+.header-flex ul li:hover{
+   color: black;
+   cursor: pointer;
+  
+
+}
