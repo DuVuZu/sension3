@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+}
+
+:root{
+   --black-color:#000000;
+   --white-color:#ffffff;
+}
+body{
+   color: var(--write-color);
+   font-family: "Roboto Slab", serif;
+}
+.header{
+   background-color: rgb(3, 8, 19);
+   margin-bottom: 30px;
+}
+
+.header-flex{
+   display:flex;
+   justify-content:space-between;
+   padding:20px 0;
+}
+
+.container{
+   max-width: 1100px;
+   margin:0 auto;
+}
+
+.header-flex ul{
+   color: white;
+   display: inline-flex;
+   list-style:none;
+   gap: 30px;
+   font-size: 20px;
+}
+
+
+
+.header-flex ul li{
+   font-size: 30px;
+   color: azure;
+}
+.header-flex ul li:hover{
+   color: rgb(39, 9, 9);
+   cursor: pointer;
+}
+.cards{
+   display: grid;
+   gap: 25px;
+   grid-template-columns: repeat(3,1fr);
+}
+.card{
+   background-color: var(--black-color);
+   border-radius: 12px;
+   height: auto;
+   overflow: hidden;
+}
+.card img{
+   height: 300px;
+   width: 100%;
+   object-fit: cover;
+   margin-bottom: 10px;
+}
+.card h2{
+   text-align: center;
+   padding: 0 10px;
+   color: #371414;
+}
+.card p{
+text-align: center;
+padding-left:0 10px;
+padding-right: 10px;
+padding-bottom: 15px;
+font-size: 15px;
+color: #371414;
+}
+.card div{
+   border: 1px solid white;
+   margin-left: 90px;
+   margin-right: 90px;
+   margin-top: 18px;
+   margin-bottom: 18px;
+}
+
